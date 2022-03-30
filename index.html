@@ -54,63 +54,67 @@
         "type": "flex",
         "altText": "โค้ดรับเครดิตฟรี 50 บาท",
     "type": "flex",
-    "contents": {
+    "contents": {  
       "type": "bubble",
   "direction": "ltr",
-  "body": {
+  "header": {
     "type": "box",
     "layout": "vertical",
-    "backgroundColor": "#FFFFFFFF",
+    "backgroundColor": "#8400D5FF",
+    "borderColor": "#FF0E0EFF",
     "contents": [
       {
         "type": "text",
-        "text": "คุณสนใจรับเครดิตฟรี 50 ใช่ไหมคะ",
-        "size": "md",
-        "color": "#9A00CAFF",
+        "text": "แจกเครดิตฟรี 50 ",
+        "weight": "regular",
+        "size": "xl",
+        "color": "#FFFDFDFF",
+        "align": "center",
+        "contents": []
+      }
+    ]
+  },
+  "hero": {
+    "type": "image",
+    "url": "https://www.img.in.th/images/57fac75947cbeb97eec1830d9ab933ec.jpg",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "aspectMode": "fit"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "backgroundColor": "#8400D5FF",
+    "contents": [
+      {
+        "type": "text",
+        "text": "เพียงคุณร่วมกิจกรรมกับทางเรา",
+        "color": "#FFFFFFFF",
         "align": "center",
         "contents": []
       },
       {
-        "type": "button",
-        "action": {
-          "type": "message",
-          "label": "รับเครดิตฟรี",
-          "text": "สนใจ"
-        },
-        "color": "#9A00CAFF",
-        "style": "primary",
-        "gravity": "center",
-        "offsetTop": "sm"
+        "type": "text",
+        "text": "รับเครดิตฟรีได้เลยทันที 50 เครดิต",
+        "color": "#FFFFFFFF",
+        "align": "center",
+        "contents": []
       }
     ]
   },
   "footer": {
     "type": "box",
     "layout": "horizontal",
-    "offsetBottom": "sm",
-    "backgroundColor": "#FFFFFFFF",
+    "backgroundColor": "#8400D5FF",
     "contents": [
       {
         "type": "button",
         "action": {
-          "type": "message",
-          "label": "ไม่สนใจ",
-          "text": "ไม่สนใจ"
+          "type": "uri",
+          "label": "รับเครดิตฟรี",
+          "uri": "https://linecorp.com"
         },
-        "color": "#9A00CAFF",
-        "style": "primary",
-        "offsetEnd": "xs"
-      },
-      {
-        "type": "button",
-        "action": {
-          "type": "message",
-          "label": "ฝากเงิน",
-          "text": "ฝากเงิน"
-        },
-        "color": "#9A00CAFF",
-        "style": "primary",
-        "offsetStart": "xs"
+        "style": "primary"
       }
     ]
   }
